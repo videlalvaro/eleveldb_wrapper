@@ -2,7 +2,7 @@ APP_NAME:=eleveldb
 DO_NOT_GENERATE_APP_FILE:=true
 
 UPSTREAM_GIT:=git://github.com/basho/eleveldb.git
-UPSTREAM_REVISION:=eb2342b595b348df42bd18f52d635bd8a0edd7d2
+UPSTREAM_REVISION:=master
 RETAIN_ORIGINAL_VERSION:=true
 
 ORIGINAL_APP_FILE=$(CLONE_DIR)/src/$(APP_NAME).app.src
@@ -35,3 +35,4 @@ $(PACKAGE_DIR)+pre-run:: $(PACKAGE_DIR)/dist/.done.$(PACKAGE_VERSION)
 $(PACKAGE_DIR)+pre-test:: $(PACKAGE_DIR)+pre-run
 
 endef
+
