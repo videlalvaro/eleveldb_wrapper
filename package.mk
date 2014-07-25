@@ -2,7 +2,8 @@ APP_NAME:=eleveldb
 DO_NOT_GENERATE_APP_FILE:=true
 
 UPSTREAM_GIT:=git://github.com/basho/eleveldb.git
-UPSTREAM_REVISION:=master
+UPSTREAM_REVISION:=2.0.0beta1
+ORIGINAL_VERSION:=2.0.0beta1
 RETAIN_ORIGINAL_VERSION:=true
 
 ORIGINAL_APP_FILE=$(CLONE_DIR)/src/$(APP_NAME).app.src
