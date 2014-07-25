@@ -1,8 +1,8 @@
 APP_NAME:=eleveldb
 DO_NOT_GENERATE_APP_FILE:=true
 
-UPSTREAM_GIT:=git://github.com/basho/eleveldb.git
-UPSTREAM_REVISION:=2.0.0beta1
+UPSTREAM_GIT:=git://github.com/cloudamqp/eleveldb.git
+UPSTREAM_REVISION:=develop
 ORIGINAL_VERSION:=2.0.0beta1
 RETAIN_ORIGINAL_VERSION:=false
 
